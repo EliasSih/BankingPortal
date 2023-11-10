@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "1234567890123",
+    "name": "Alice",
+    "surname": "Johnson",
+    "phoneNumber": "555-1234",
+    "address": "123 Cherry Lane",
+    "email": "alice.johnson@example.com",
+    "dateOfBirth": "1990-05-15",
+    "accounts": [
+      {
+        "accountNumber": "123456789",
+        "referenceId": "1"
+      },
+      {
+        "accountNumber": "665544332",
+        "referenceId": "7"
+      }
+    ],
+    "username": "alicej",
+    "password": "$2a$10$t76P3ILmIu03nq5o4H5OmuXRHjh6svD9LerhqZ1z/FSo1NXsUFMji"
+  },
+  {
+    "_id": "2345678901234",
+    "name": "Bob",
+    "surname": "Smith",
+    "phoneNumber": "555-2345",
+    "address": "234 Oak Road",
+    "email": "bob.smith@example.com",
+    "dateOfBirth": "1985-08-20",
+    "accounts": [
+      {
+        "accountNumber": "987654321",
+        "referenceId": "2"
+      },
+      {
+        "accountNumber": "443322110",
+        "referenceId": "8"
+      }
+    ],
+    "username": "bsmith",
+    "password": "$2a$10$xVB0YMbhKUd5/hw7E7LyeeQiIDYVbc/qXBdGsV3qoHmoT1MOuYgGC"
+  }
+]

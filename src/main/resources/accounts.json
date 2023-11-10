@@ -1,0 +1,86 @@
+[
+  {
+    "_id": "1",
+    "accountNumber": "123456789",
+    "balance": 1000.00,
+    "accountType": "SAVINGS",
+    "pin": "1234"
+  },
+  {
+    "_id": "2",
+    "accountNumber": "987654321",
+    "balance": 2500.50,
+    "accountType": "CHEQUE",
+    "pin": "2345"
+  },
+  {
+    "_id": "3",
+    "accountNumber": "112233445",
+    "balance": 3000.75,
+    "accountType": "PRIVATE_WEALTH",
+    "pin": "3456"
+  },
+  {
+    "_id": "4",
+    "accountNumber": "223344556",
+    "balance": 1500.00,
+    "accountType": "STUDENT",
+    "pin": "4567"
+  },
+  {
+    "_id": "5",
+    "accountNumber": "556677889",
+    "balance": 5000.00,
+    "accountType": "YOUNG_PROFESSIONAL",
+    "pin": "5678"
+  },
+  {
+    "_id": "6",
+    "accountNumber": "998877665",
+    "balance": 7600.00,
+    "accountType": "GOLD",
+    "pin": "6789"
+  },
+  {
+    "_id": "7",
+    "accountNumber": "665544332",
+    "balance": 4820.00,
+    "accountType": "SAVINGS",
+    "pin": "7890"
+  },
+  {
+    "_id": "8",
+    "accountNumber": "443322110",
+    "balance": 12000.00,
+    "accountType": "CHEQUE",
+    "pin": "8901"
+  },
+  {
+    "_id": "9",
+    "accountNumber": "110022334",
+    "balance": 6590.00,
+    "accountType": "PRIVATE_WEALTH",
+    "pin": "9012"
+  },
+  {
+    "_id": "10",
+    "accountNumber": "221100443",
+    "balance": 3900.00,
+    "accountType": "STUDENT",
+    "pin": "1122"
+  },
+  {
+    "_id": "11",
+    "accountNumber": "334455667",
+    "balance": 8700.00,
+    "accountType": "YOUNG_PROFESSIONAL",
+    "pin": "2233"
+  },
+  {
+    "_id": "12",
+    "accountNumber": "778899001",
+    "balance": 9200.00,
+    "accountType": "GOLD",
+    "pin": "3344"
+  }
+]

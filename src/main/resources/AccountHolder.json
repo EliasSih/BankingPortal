@@ -1,0 +1,127 @@
+[
+  {
+    "_id": "1234567890123",
+    "name": "Alice",
+    "surname": "Johnson",
+    "phoneNumber": "555-1234",
+    "address": "123 Cherry Lane",
+    "email": "alice.johnson@example.com",
+    "dateOfBirth": "1990-05-15",
+    "accounts": [
+      {
+        "accountNumber": "123456789",
+        "referenceId": "1"
+      },
+      {
+        "accountNumber": "665544332",
+        "referenceId": "7"
+      }
+    ]
+  },
+  {
+    "_id": "2345678901234",
+    "name": "Bob",
+    "surname": "Smith",
+    "phoneNumber": "555-2345",
+    "address": "234 Oak Road",
+    "email": "bob.smith@example.com",
+    "dateOfBirth": "1985-08-20",
+    "accounts": [
+      {
+        "accountNumber": "987654321",
+        "referenceId": "2"
+      },
+      {
+        "accountNumber": "443322110",
+        "referenceId": "8"
+      }
+    ]
+  },
+  {
+    "_id": "3456789012345",
+    "name": "Carol",
+    "surname": "Davis",
+    "phoneNumber": "555-3456",
+    "address": "345 Pine Street",
+    "email": "carol.davis@example.com",
+    "dateOfBirth": "1975-12-01",
+    "accounts": [
+      {
+        "accountNumber": "112233445",
+        "referenceId": "3"
+      }
+    ]
+  },
+  {
+    "_id": "4567890123456",
+    "name": "David",
+    "surname": "Wilson",
+    "phoneNumber": "555-4567",
+    "address": "456 Maple Avenue",
+    "email": "david.wilson@example.com",
+    "dateOfBirth": "1992-03-22",
+    "accounts": [
+      {
+        "accountNumber": "223344556",
+        "referenceId": "4"
+      }
+    ]
+  },
+  {
+    "_id": "5678901234567",
+    "name": "Eve",
+    "surname": "Brown",
+    "phoneNumber": "555-5678",
+    "address": "567 Cedar Blvd",
+    "email": "eve.brown@example.com",
+    "dateOfBirth": "1988-11-30",
+    "accounts": [
+      {
+        "accountNumber": "556677889",
+        "referenceId": "5"
+      },
+      {
+        "accountNumber": "110022334",
+        "referenceId": "9"
+      }
+    ]
+  },
+  {
+    "_id": "6789012345678",
+    "name": "Frank",
+    "surname": "Miller",
+    "phoneNumber": "555-6789",
+    "address": "678 Spruce St",
+    "email": "frank.miller@example.com",
+    "dateOfBirth": "1993-07-15",
+    "accounts": [
+      {
+        "accountNumber": "998877665",
+        "referenceId": "6"
+      },
+      {
+        "accountNumber": "221100443",
+        "referenceId": "10"
+      },
+      {
+        "accountNumber": "334455667",
+        "referenceId": "11"
+      }
+    ]
+  },
+  {
+    "_id": "7890123456789",
+    "name": "Grace",
+    "surname": "Lee",
+    "phoneNumber": "555-7890",
+    "address": "789 Birch Street",
+    "email": "grace.lee@example.com",
+    "dateOfBirth": "1980-09-05",
+    "accounts": [
+      {
+        "accountNumber": "778899001",
+        "referenceId": "12"
+      }
+    ]
+  }
+]
