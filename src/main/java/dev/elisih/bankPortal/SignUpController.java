@@ -2,7 +2,7 @@ package dev.elisih.bankPortal;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-//import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,7 +19,7 @@ public class SignUpController {
     private UserRepository userRepository;
 
     @Autowired
-//    private PasswordEncoder passwordEncoder;
+    private PasswordEncoder passwordEncoder;
 
     @PostMapping("/signup")
     public ResponseEntity<?> registerUser(@RequestBody SignUpRequest signUpRequest) {
@@ -44,8 +44,7 @@ public class SignUpController {
                     signUpRequest.getDateOfBirth(),
                     /* accounts */ List.of(account), // Assuming the account is directly added
                     signUpRequest.getUsername(),
-                    signUpRequest.getPassword()
-//                    passwordEncoder.encode(signUpRequest.getPassword()) // Encode the password
+                    passwordEncoder.encode(signUpRequest.getPassword()) // Encode the password
             );
 
             userRepository.save(user);
